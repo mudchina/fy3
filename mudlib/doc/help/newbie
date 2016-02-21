@@ -1,0 +1,59 @@
+[½øÈëÓÎÏ·]
+    ÄãÒ»¿ªÊ¼½øÈëÓÎÏ·ÊÇÔÚÖÐÖÝ³ÇµÄÓ¢ºÀ¾ÆÂ¥ÖÐ,Ê¹ÓÃ<look>¿ÉÒÔ¿´Çå
+ËÄÖÜµÄ»·¾³.(look ¿ÉÒÔ¼òÐ´Îªl).
+    Äã¿´µ½µÄ»·¾³ÖÐÓÐÃ÷ÏÔµÄ³ö¿Ú,Í¨³£ÊÇeast,west,up,down,etc;±í
+Ê¾Äã¿ÉÒÔÏòÕâÐ©·½Ïò×ß,±ÈÈçÄãÒªÏò¶«È¥,ÇÃÈë<east>,¼òÐ´Îªe;ÆäÓàÀà
+ÍÆ.
+    ÓÐ²»Çå³þµÄ,Ê¹ÓÃ<help>.
+[½»Ì¸]
+    ÒªÖªµÀÓÐ¶àÉÙÈËºÍÄãÒ»ÆðÔÚÍæÕâ¸öÓÎÏ·,ÇÃÈë<who>¼´¿É,Äã¿ÉÒÔºÍ
+ÓÎÏ·ÖÐµÄÆäËûÈË½»Ì¸,Í¨³£Ê¹ÓÃµÄÃüÁîÓÐ:
+<say>:ÀýÈç                     say ÄãºÃ!
+      Äã¿´µ½:                  ÄãËµµÀ£ºÄãºÃ!
+      ºÍÄãÔÚÒ»¸öµØ·½µÄÈË¿´µ½:  XXXËµµÀ:ÄãºÃ!
+<chat>:
+     chatÕâ¸öÃüÁîÊÇÏÐÁÄ,ÄãËµµÄ»°Õâ¸öÓÎÏ·ÖÐµÄËùÓÐÍæ¼Ò¶¼»á¿´µ½.
+     ÀýÈç chat* hi
+ ±ðÈË¿´µ½:  ¡¾ÏÐÁÄ¡¿XXXË«ÊÖ±§È­£¬×÷ÁË¸öÒ¾µÀ£º¸÷Î»Ó¢ÐÛÇëÁË£¡
+ÆäËûµÄ<whisper>,<tell>ÓÃ·¨ÀàËÆ.
+ÓÃhelp whisper;help tellÏê²é.
+
+[×ÔÉí×´¿ö]
+    ÓÃhp²é¿´×ÔÉíµÄ×´¿ö,Èç¹ûÄãÊÇ°ï»áÖÐÈËµÄ»°,Ò²ÄÜÓÃhp XXX²é¿´Äã
+Í¬Ò»°ï»áÈËµÄ×´¿ö.
+ÀýÈç: hp
+    ¾«  £º  120/  120 (100%)    µÀÐÐ£º    0 /    0 (+0)
+    Æø  £º  120/  120 (100%)    ÄÚÁ¦£º    0 /    0 (+0)
+    Éñ  £º  100/  100 (100%)    ·ð·¨£º    0 /    0 (+0)
+    Ê³Îï£º    0/  390           ÆÀ¼Û£ºº 0
+    ÒûË®£º    0/  390           ¾­Ñé£º 202
+    ÓÃchaÃüÁî¿´×Ô¼ºÑ§»áµÄ¼¼ÄÜ.
+ÀýÈç:cha
+  ÄãÄ¿Ç°ËùÑ§¹ýµÄ¼¼ÄÜ£º
+
+  °µÓ°¸¡Ïã (anying-fuxiang)                - ³õÑ§Õ§Á·   8/    0
+  µÀÑ§ÐÄµÃ (daoxuexinde)                   - ÐÂÑ§Õ§ÓÃ   8/    0
+  ·ðÑ§ÐÄµÃ (foxuexinde)                    - ÐÂÑ§Õ§ÓÃ   8/    0
+  ¶ÁÊéÐ´×Ö (literate)                      - ³õ¿úÃÅ¾¶  12/    0
+  Í½ÊÖ²«»÷ (unarmed)                       - ³õÑ§Õ§Á·   6/    0
+
+[Îä¹¦¼¼ÄÜ]
+    ÔÚÓÎÏ·ÖÐ,¿ÉÒÔ°ÝÊ¦Ñ§ÒÕ,ÏÖÔÚµÄÃÅÅÉÓÐÁéðÕ,»ªÉ½,ºãÉ½,¶ëÃ¼,Îäµ±,áÔ
+É½,Ì©É½,°×ÍÕ,È«Õæ,ÄÏº£,ÓÄÚ¤É½×¯,¹ÃËÕÄ½ÈÝ,Ã·×¯,Ñãµ´.
+    °ï»áÓÐÀ¥ÂØÃ÷½Ì,ºÚÄ¾ÑÂ,Ø¤°ï,ÌìµØ»á.
+    ÔÚÃÅÅÉÖÐ¿ÉÒÔÖ±½Ó°ÝÊ¦¸µÑ§ÒÕ(help bai),¼ÓÈë°ï»á²»µ«ÓÐÐ½Ùº,»¹ÄÜÑ§
+Îä¹¦.
+    ÔÚÓÎÏ·ÖÐ,µÀÑ§ÐÄµÃ,·ðÑ§ÐÄµÃ,¶ÁÊéÐ´×ÖÖ»ÄÜ·Ö±ðÔÚµÀ¹Û,ËÂÔº,ÊéÔºÖÐ
+Ñ§Ï°.¶ø¸úÊ¦¸µÓÃ(xue)ÃüÁî¿ÉÒÔÑ§Ï°¼¼ÄÜ,²»¹ýÖ»ÄÜÑ§Ò»¼¶,Í¨¹ýÍê³É°ï»áµÄ
+ÈÎÎñ,ÒÔ¼°ºÍnpcµÄ´ò¶·ÖÐ,¼¼ÄÜ»á×Ô¶¯Éý¼¶.
+    µ±Îä¹¦¼¼ÄÜµ½ÈýÊ®¼¶ºó,Èç¹ûÄãÊ¹ÓÃchaÊ±,¿´µ½×Ô¼ºÄ³ÏîÎä¹¦ÒÑ¾­±ä³Éºì
+É«,ÄÇ¾ÍÒªµ½Ê¦¸µÄÇ¶ùÓÃ<shengji>ÃüÁîÀ´Éý¼¶ÄãµÄÎä¹¦.
+
+[ÆäËû]
+    ÒòÎªÒýÈëÁË°ï»áµÄ¸ÅÄî,ËùÒÔÒªÏàµ±ÊìÏ¤<yaoqing>µÈÃüÁî.ÏêÏ¸¿´
+help bunch;
+    Ê¹ÓÃeat,drinkÃüÁîÀ´Ìî±¥ÄãµÄ¶Ç×Ó,ÔÚµêÆÌÖÐÓÃ<list>ÃüÁîÀ´ÏÔÊ¾Ëù³öÊÛ
+µÄÉÌÆ·.
+    ÆäËûÃüÁîÇëÏê¿´help cmds.
+    
+       

@@ -1,0 +1,10 @@
+柳五(cch) call 中央处理器(cpu)->set("qi",100000) on Mon Apr 17 20:42:38 2000
+柳五(cch) call 中央处理器(cpu)->set("kee",100000) on Mon Apr 17 20:42:47 2000
+柳五(cch) call 中央处理器(cpu)->set("kee",100000) on Mon Apr 17 20:43:15 2000
+中央处理器(cpu) call 笑云云(cyj)->set(kee,-1) on Mon Apr 17 20:44:00 2000
+中央处理器(cpu) call 柳五(cch)->set(kee,-1) on Mon Apr 17 20:45:09 2000
+柳五(cch) call 中央处理器(cpu)->set("kee",-1) on Mon Apr 17 20:46:47 2000
+中央处理器(cpu) call 南宫天风(nangong)->set(kee,-1) on Mon Apr 17 20:56:54 2000
+柳五(cch) call 中央处理器(cpu)->set("kee",-1) on Mon Apr 17 20:57:20 2000
+中央处理器(cpu) call 迪斯科(swordman)->set(kee,-1) on Wed Apr 19 13:55:37 2000
+柳五(cch) call 笑。云(cyj)->set("name",笑云) on Mon Apr 24 13:04:34 2000

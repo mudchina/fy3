@@ -1,0 +1,241 @@
+d/wiz/npc/yingying.c line 78: Warning: Value of conditional expression is unused
+cmds/app/cost.c line 15: Undefined function rusage
+cmds/app/cost.c line 15: Bad assignment ( mapping vs unknown ).
+cmds/app/cost.c line 19: Bad assignment ( mapping vs unknown ).
+adm/daemons/combatd.c line 4: Warning: Unknown #pragma, ignored.
+adm/daemons/band.c line 6: Warning: redefinition of #define BANNED_SITES
+
+adm/daemons/combatd.c line 4: Warning: Unknown #pragma, ignored.
+adm/daemons/band.c line 6: Warning: redefinition of #define BANNED_SITES
+
+adm/daemons/combatd.c line 4: Warning: Unknown #pragma, ignored.
+adm/daemons/band.c line 6: Warning: redefinition of #define BANNED_SITES
+
+cmds/usr/who.c line 54: Undefined variable 'short91'
+cmds/usr/who.c line 54: Bad argument number 1 to '-': "object "
+cmds/usr/who.c line 54: Too few arguments to strcmp
+cmds/usr/who.c line 54: Too few arguments to strcmp
+cmds/usr/who.c line 54: Too few arguments to strcmp
+cmds/usr/who.c line 54: Too few arguments to strcmp
+cmds/imm/where.c line 20: Too few arguments to strcmp
+cmds/imm/where.c line 20: parse error
+cmds/imm/where.c line 21: Illegal LHS
+cmds/imm/where.c line 21: parse error
+cmds/imm/where.c line 22: Illegal LHS
+cmds/imm/where.c line 33: Illegal LHS
+cmds/imm/where.c line 20: parse error
+cmds/imm/where.c line 21: Illegal LHS
+cmds/imm/where.c line 21: parse error
+cmds/imm/where.c line 22: Illegal LHS
+cmds/imm/where.c line 33: Illegal LHS
+cmds/imm/where.c line 33: parse error
+cmds/imm/where.c line 20: parse error
+cmds/imm/where.c line 21: Illegal LHS
+cmds/imm/where.c line 21: parse error
+cmds/imm/where.c line 22: Illegal LHS
+cmds/imm/where.c line 33: Illegal LHS
+cmds/imm/where.c line 33: parse error
+adm/daemons/combatd.c line 4: Warning: Unknown #pragma, ignored.
+adm/daemons/band.c line 6: Warning: redefinition of #define BANNED_SITES
+
+cmds/imm/where.c line 20: parse error
+cmds/imm/where.c line 21: Illegal LHS
+cmds/imm/where.c line 21: parse error
+cmds/imm/where.c line 22: Illegal LHS
+cmds/imm/where.c line 33: Illegal LHS
+cmds/imm/where.c line 33: parse error
+cmds/imm/where.c line 20: parse error
+cmds/imm/where.c line 21: Illegal LHS
+cmds/imm/where.c line 21: parse error
+cmds/imm/where.c line 22: Illegal LHS
+cmds/imm/where.c line 33: Illegal LHS
+cmds/imm/where.c line 33: parse error
+cmds/imm/where.c line 67: End of file in a comment
+cmds/imm/where.c line 67: parse error
+adm/daemons/combatd.c line 4: Warning: Unknown #pragma, ignored.
+adm/daemons/combatd.c line 4: Warning: Unknown #pragma, ignored.
+adm/daemons/band.c line 6: Warning: redefinition of #define BANNED_SITES
+
+cmds/imm/where.c line 24: parse error
+cmds/imm/where.c line 24: Illegal LHS
+cmds/imm/where.c line 23: parse error
+cmds/imm/where.c line 23: Illegal LHS
+cmds/imm/where.c line 23: parse error
+cmds/imm/where.c line 23: Illegal LHS
+cmds/imm/where.c line 23: parse error
+cmds/imm/where.c line 23: Illegal LHS
+cmds/imm/where.c line 22: parse error
+cmds/imm/where.c line 22: Illegal LHS
+cmds/imm/where.c line 22: parse error
+cmds/imm/where.c line 22: Illegal LHS
+cmds/imm/where.c line 22: parse error
+cmds/imm/where.c line 22: Illegal LHS
+cmds/imm/where.c line 22: parse error
+cmds/imm/where.c line 22: Illegal LHS
+cmds/imm/where.c line 22: parse error
+cmds/imm/where.c line 22: Illegal LHS
+cmds/imm/where.c line 22: parse error
+cmds/imm/where.c line 22: Illegal LHS
+cmds/imm/where.c line 22: parse error
+cmds/imm/where.c line 22: Illegal LHS
+cmds/imm/where.c line 22: parse error
+cmds/imm/where.c line 22: Illegal LHS
+cmds/imm/where.c line 21: parse error
+cmds/imm/where.c line 21: Illegal LHS
+cmds/imm/where.c line 21: parse error
+cmds/imm/where.c line 21: Illegal LHS
+cmds/imm/where.c line 21: parse error
+cmds/imm/where.c line 21: Illegal LHS
+cmds/imm/where.c line 21: parse error
+cmds/imm/where.c line 21: Illegal LHS
+cmds/imm/where.c line 21: parse error
+cmds/imm/where.c line 21: Illegal LHS
+cmds/imm/where.c line 20: parse error
+cmds/imm/where.c line 21: Illegal LHS
+cmds/imm/where.c line 21: parse error
+cmds/imm/where.c line 22: Illegal LHS
+cmds/imm/where.c line 33: Illegal LHS
+cmds/imm/where.c line 33: parse error
+cmds/imm/where.c line 46: parse error
+adm/daemons/combatd.c line 4: Warning: Unknown #pragma, ignored.
+adm/daemons/band.c line 6: Warning: redefinition of #define BANNED_SITES
+
+adm/daemons/combatd.c line 4: Warning: Unknown #pragma, ignored.
+adm/daemons/band.c line 6: Warning: redefinition of #define BANNED_SITES
+
+adm/daemons/combatd.c line 4: Warning: Unknown #pragma, ignored.
+adm/daemons/band.c line 6: Warning: redefinition of #define BANNED_SITES
+
+adm/daemons/combatd.c line 4: Warning: Unknown #pragma, ignored.
+adm/daemons/band.c line 6: Warning: redefinition of #define BANNED_SITES
+
+adm/daemons/rankd.c line 73: Duplicate default
+adm/daemons/rankd.c line 115: Reserved type name unexpected.
+adm/daemons/rankd.c line 115: parse error
+adm/daemons/rankd.c line 120: Undefined variable 'ob'
+adm/daemons/rankd.c line 120: Illegal LHS
+adm/daemons/rankd.c line 120: parse error
+adm/daemons/combatd.c line 4: Warning: Unknown #pragma, ignored.
+adm/daemons/band.c line 6: Warning: redefinition of #define BANNED_SITES
+
+d/yangzhou/npc/daren.c line 2: parse error
+d/city2/npc/gaoyanch.c line 66: Type of returned value doesn't match function return type ( int vs void )
+d/city2/npc/xutianch.c line 101: Type of returned value doesn't match function return type ( int vs void )
+d/huanggon/npc/jialaoliu.c line 90: Warning: Non-void functions must return a value.
+include/kzznpc.h line 2: Undefined function restore
+include/kzznpc.h line 8: Undefined function save
+include/kzznpc.h line 13: Undefined function set_name
+include/kzznpc.h line 14: Undefined function query_skill
+d/yangzhou/npc/daren.c line 13: Undefined variable 'perform_action'
+d/yangzhou/npc/daren.c line 13: parse error
+cmds/std/finger.c line 3: parse error
+u/heart/y.c line 52: Warning: clean_up() inherited from both /feature/clean_up.c (via /std/armor/cloth.c) and /feature/clean_up.c; using the definition in /std/armor/cloth.c.
+d/city2/npc/gaoyanch.c line 66: Type of returned value doesn't match function return type ( int vs void )
+u/heart/y.c line 52: Warning: clean_up() inherited from both /feature/clean_up.c (via /std/armor/cloth.c) and /feature/clean_up.c; using the definition in /std/armor/cloth.c.
+u/heart/y.c line 52: Warning: clean_up() inherited from both /feature/clean_up.c (via /std/armor/cloth.c) and /feature/clean_up.c; using the definition in /std/armor/cloth.c.
+adm/daemons/combatd.c line 4: Warning: Unknown #pragma, ignored.
+adm/daemons/band.c line 6: Warning: redefinition of #define BANNED_SITES
+
+u/heart/y.c line 52: Warning: clean_up() inherited from both /feature/clean_up.c (via /std/armor/cloth.c) and /feature/clean_up.c; using the definition in /std/armor/cloth.c.
+u/heart/zz.c line 57: Warning: clean_up() inherited from both /feature/clean_up.c (via /std/armor/cloth.c) and /feature/clean_up.c; using the definition in /std/armor/cloth.c.
+d/huanggon/npc/jialaoliu.c line 90: Warning: Non-void functions must return a value.
+adm/daemons/combatd.c line 4: Warning: Unknown #pragma, ignored.
+adm/daemons/band.c line 6: Warning: redefinition of #define BANNED_SITES
+
+d/wiz/npc/yingying.c line 78: Warning: Value of conditional expression is unused
+adm/daemons/combatd.c line 4: Warning: Unknown #pragma, ignored.
+adm/daemons/band.c line 6: Warning: redefinition of #define BANNED_SITES
+
+adm/daemons/combatd.c line 4: Warning: Unknown #pragma, ignored.
+adm/daemons/band.c line 6: Warning: redefinition of #define BANNED_SITES
+
+adm/daemons/combatd.c line 4: Warning: Unknown #pragma, ignored.
+adm/daemons/band.c line 6: Warning: redefinition of #define BANNED_SITES
+
+daemon/skill/daoxuexinde.c line 12: parse error
+daemon/skill/daoxuexinde.c line 23: parse error
+daemon/skill/daoxuexinde.c line 12: parse error
+daemon/skill/daoxuexinde.c line 22: parse error
+daemon/skill/daoxuexinde.c line 12: parse error
+daemon/skill/daoxuexinde.c line 12: parse error
+adm/daemons/combatd.c line 4: Warning: Unknown #pragma, ignored.
+adm/daemons/band.c line 6: Warning: redefinition of #define BANNED_SITES
+
+adm/daemons/combatd.c line 4: Warning: Unknown #pragma, ignored.
+adm/daemons/band.c line 6: Warning: redefinition of #define BANNED_SITES
+
+d/zhongzhou/npc/dks.c line 11: parse error
+adm/daemons/natured.c line 273: Reserved type name unexpected.
+adm/daemons/natured.c line 273: parse error
+adm/daemons/natured.c line 280: Illegal LHS
+adm/daemons/natured.c line 280: Undefined variable 'last'
+adm/daemons/natured.c line 281: Reserved type name unexpected.
+adm/daemons/natured.c line 281: parse error
+adm/daemons/natured.c line 211: parse error
+adm/daemons/combatd.c line 4: Warning: Unknown #pragma, ignored.
+adm/daemons/band.c line 6: Warning: redefinition of #define BANNED_SITES
+
+adm/daemons/combatd.c line 4: Warning: Unknown #pragma, ignored.
+adm/daemons/band.c line 6: Warning: redefinition of #define BANNED_SITES
+
+adm/daemons/combatd.c line 4: Warning: Unknown #pragma, ignored.
+adm/daemons/band.c line 6: Warning: redefinition of #define BANNED_SITES
+
+cmds/usr/xiugai.c line 13: Illegal to inherit after defining global variables.
+cmds/usr/xiugai.c line 14: Illegal to inherit after defining global variables.
+cmds/usr/xiugai.c line 13: Illegal to inherit after defining global variables.
+cmds/usr/xiugai.c line 14: Illegal to inherit after defining global variables.
+adm/daemons/combatd.c line 4: Warning: Unknown #pragma, ignored.
+adm/daemons/combatd.c line 4: Warning: Unknown #pragma, ignored.
+adm/daemons/combatd.c line 4: Warning: Unknown #pragma, ignored.
+adm/daemons/combatd.c line 4: Warning: Unknown #pragma, ignored.
+adm/daemons/combatd.c line 4: Warning: Unknown #pragma, ignored.
+adm/daemons/combatd.c line 4: Warning: Unknown #pragma, ignored.
+adm/daemons/combatd.c line 4: Warning: Unknown #pragma, ignored.
+adm/daemons/combatd.c line 4: Warning: Unknown #pragma, ignored.
+adm/daemons/combatd.c line 4: Warning: Unknown #pragma, ignored.
+adm/daemons/band.c line 6: Warning: redefinition of #define BANNED_SITES
+
+adm/daemons/combatd.c line 4: Warning: Unknown #pragma, ignored.
+adm/daemons/combatd.c line 4: Warning: Unknown #pragma, ignored.
+adm/daemons/combatd.c line 4: Warning: Unknown #pragma, ignored.
+adm/daemons/combatd.c line 4: Warning: Unknown #pragma, ignored.
+adm/daemons/combatd.c line 4: Warning: Unknown #pragma, ignored.
+adm/daemons/band.c line 6: Warning: redefinition of #define BANNED_SITES
+
+adm/daemons/combatd.c line 4: Warning: Unknown #pragma, ignored.
+adm/daemons/band.c line 6: Warning: redefinition of #define BANNED_SITES
+
+adm/daemons/combatd.c line 4: Warning: Unknown #pragma, ignored.
+adm/daemons/combatd.c line 4: Warning: Unknown #pragma, ignored.
+adm/daemons/band.c line 6: Warning: redefinition of #define BANNED_SITES
+
+adm/daemons/combatd.c line 4: Warning: Unknown #pragma, ignored.
+adm/daemons/combatd.c line 4: Warning: Unknown #pragma, ignored.
+adm/daemons/band.c line 6: Warning: redefinition of #define BANNED_SITES
+
+adm/daemons/combatd.c line 4: Warning: Unknown #pragma, ignored.
+adm/daemons/band.c line 6: Warning: redefinition of #define BANNED_SITES
+
+adm/daemons/combatd.c line 4: Warning: Unknown #pragma, ignored.
+adm/daemons/combatd.c line 4: Warning: Unknown #pragma, ignored.
+adm/daemons/band.c line 6: Warning: redefinition of #define BANNED_SITES
+
+adm/daemons/combatd.c line 4: Warning: Unknown #pragma, ignored.
+adm/daemons/combatd.c line 4: Warning: Unknown #pragma, ignored.
+adm/daemons/band.c line 6: Warning: redefinition of #define BANNED_SITES
+
+adm/daemons/combatd.c line 4: Warning: Unknown #pragma, ignored.
+adm/daemons/combatd.c line 4: Warning: Unknown #pragma, ignored.
+adm/daemons/combatd.c line 4: Warning: Unknown #pragma, ignored.
+adm/daemons/band.c line 6: Warning: redefinition of #define BANNED_SITES
+
+adm/daemons/combatd.c line 4: Warning: Unknown #pragma, ignored.
+adm/daemons/combatd.c line 4: Warning: Unknown #pragma, ignored.
+adm/daemons/band.c line 6: Warning: redefinition of #define BANNED_SITES
+
+adm/daemons/combatd.c line 4: Warning: Unknown #pragma, ignored.
+adm/daemons/combatd.c line 4: Warning: Unknown #pragma, ignored.
+adm/daemons/combatd.c line 4: Warning: Unknown #pragma, ignored.
+adm/daemons/band.c line 6: Warning: redefinition of #define BANNED_SITES
+

@@ -1,0 +1,116 @@
+// music   yangzhou's µêÐ¡¶þ
+
+inherit NPC;
+inherit F_VENDOR;
+
+void create()
+{
+        set_name("µêÐ¡¶þ", ({ "xiaoer", "xiao", "waiter","xiao er","er" }) );
+        set("gender", "ÄÐÐÔ" );
+        set("age", 20);
+        set("long",
+                "Ã¼ÇåÄ¿ÐãµÄÐ¡»ï¼Æ£¬ÕûÌìÐ¦ÎûÎûµÄ£¬Ã¦µÃ²»ÒàÀÖºõ¡£\n");
+        set("combat_exp", 1000);
+        set("attitude", "friendly");
+        set("rank_info/respect", "Ð¡¶þ¸ç");
+
+        set("vendor_goods", ([
+                     "°ü×Ó":     __DIR__"obj/baozi",
+                     "¾Æºø":     __DIR__"obj/jiuhu",
+ //                    "¼¦ÍÈ":     __DIR__"obj/jitui",
+                     "ÑÎË®¶ì" :  __DIR__"obj/yanshuie",
+                     "»¨ÉúÃ×" :  __DIR__"obj/huashengmi", 
+                             ]));
+
+
+        set("inquiry", ([
+              "hankou": "ÄãÒ²ÊÇºº¿ÚÈË£¿Ì«ÇÉÁË£¬ÎÒÃÇÍ¬Ïç£¬Äã[1;33mÈ¥ºº¿Ú[0;36mÂð£¿[0;37m\n",
+               "ºº¿Ú":   "ÄãÒ²ÊÇºº¿ÚÈË£¿Ì«ÇÉÁË£¬ÎÒÃÇÍ¬Ïç£¬Äã[1;33mÈ¥ºº¿Ú[0;36mÂð£¿[0;37m\n",
+               "È¥ºº¿Ú": "(quhankou) ?" ,
+        ]) );
+
+
+        setup();
+
+        carry_object("/obj/cloth")->wear();
+        add_money("coin", 50);
+}
+
+void init()
+{       
+        object ob;
+
+        ::init();
+        if( interactive(ob = this_player()) && !is_fighting() ) {
+                remove_call_out("greeting");
+                call_out("greeting", 1, ob);
+        }
+
+        add_action("buy_object", "buy");
+        add_action("buy_object", "mai");
+        add_action("do_vendor_list", "list");
+        add_action("do_vendor_list", "wen");
+        add_action("do_sell", "sell");
+}
+
+
+
+void greeting(object ob)
+{
+
+if( !wizardp(ob) )
+    {
+        if( !ob || environment(ob) != environment() ) return;
+/*      switch( (int) random(20)/10 ) {
+                case 0:
+                        say( "µêÐ¡¶þ´òÁ¿ÁË"+ob->query("name")+
+   "Ò»»á£¬Ð¦µÀ£ºÕâÎ»" + RANK_D->query_respect(ob)+ "£¬¿ÉÄÜ²»ÊÇ±¾µØÈË°É£¿\n");
+                        break;
+                case 1:
+                        say( "µêÐ¡¶þ½«×ÀÒÎ×ÐÏ¸²ÁÁË²Á£¬ËµµÀ£ºÕâÎ»" + RANK_D->query_respect(ob)
+                                + "£¬Çë×øÇë×ø¡£\n");
+                        break;
+                case 2: say("µêÐ¡¶þ³¯"+ ob->query("name") +
+"Ð¦ÁËÐ¦£¬ËµºÈÍê²è£¬¿ÉÒÔµ½¶ÔÃæÈ¥ÌýËµÊé.\n");
+                        break;
+                           }
+*/
+      if(ob->query("age") <15) 
+             {
+              say("µêÐ¡¶þÐ¦ÁËÐ¦£¬Ëµ: ÐÂÀ´µÄ°É£¿[1;33m×îºÃµ½Â·¶ÔÃæÏÈ¿´¿´Êé[0;37m.\n");
+             }
+      else if ( ob->query("age") <18 )
+            {
+             say( 
+"µêÐ¡¶þ´òÁ¿ÁË"+ob->query("name")+"Ò»»á£¬Ð¦µÀ£ºÕâÎ»" + RANK_D->query_respect(ob)+ "£¬¿ÉÄÜ²»ÊÇ±¾µØÈË°É£¿\n");
+            }      
+      else {
+            say( "µêÐ¡¶þ½«×ÀÒÎ×ÐÏ¸²ÁÁË²Á£¬ËµµÀ£ºÕâÎ»" + RANK_D->query_respect(ob)+ "£¬Çë×øÇë×ø¡£\n");
+           }
+
+   }
+else
+  {
+  say("µêÐ¡¶þÂúÁ³¶ÑÐ¦µÀ: ÊÇ" + 
+  ob->query("name")+RANK_D->query_respect(ob) + "À´À²£¿¿ìÂ¥ÉÏÇë£¡\n");
+  say("µêÐ¡¶þÈû¸ø"+ob->query("name")+"Ò»Ã¶ÌìÉ½Ñ©Á«¡£\n");
+  clone_object(__DIR__"obj/xuelian")->move(ob);
+  }
+}
+
+int accept_object(object who, object ob)
+{
+        
+        if (ob->query("money_id") && ob->value() >= 100) 
+        {
+                tell_object(who, "Ð¡¶þÒ»¹þÑü£¬ËµµÀ£º¶àÐ»ÄúÀÏ£¬Â¥ÉÏÓÐÇë¡£\n");
+
+                who->set_temp("rent_paid",1);
+
+// for if back money to who post in wizroom
+
+                return 1;
+        }
+
+        return 0;
+}

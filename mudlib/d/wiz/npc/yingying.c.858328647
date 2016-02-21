@@ -1,0 +1,99 @@
+// music  yangzhou's  ´Şİºİº
+
+inherit NPC;
+
+void create()
+{
+        set_name("´Şİºİº", ({ "cui yingying", "cui", "cyy" }));
+        set("long", "Äã¿´µ½Ëı£¬ĞÄÀï²»ÓÉÒ»µ´£¬Ö»ÏëºÍËı¶àÁÄÒ»»á¶ù¡£\n");
+        set("title", "¾ø´ú¼ÑÈË");
+        set("gender", "Å®ĞÔ");
+        set("age", 19);
+        set("per",90);
+
+        set_skill("unarmed", 70);
+        set_skill("dodge", 90);
+        set_skill("parry", 40);
+        set_temp("apply/attack", 30);
+        set_temp("apply/defense", 30);
+        set_temp("apply/damage", 5);
+
+        set("inquiry", ([
+              "music":   "ÄãÊÇÀ´ÕÒ¿×ÀÏ°åµÄÂğ£¿ÀÏ°åÆ½ÈÕºÜÃ¦£¬²»ÈİÒ×Åö¼û.",
+             "oldsix":   "ÎÒºÃ¾ÃÃ»¼ûËûÁË£¬ºÃÏëËûàŞ¡£",
+                "bbb":   "ÄÇÊÇ´óÀíÍõÒ¯£¬°¦£¬²»ÖªµÀµ½ÄÄÑ¡ÍõåúÈ¥ÁË£¬Ëû¾Í²»Ñ¡ÎÒ£¡ " ,
+              "danny":   "!@#$ Õâ¸öÃ»Í·ÄÔ! @#$" ,
+               "czgq":   "ÎÒ¶ÔËû²»ºÜÁË½â ....",
+q
+
+        ]) );
+
+
+        set("combat_exp", 20000);
+        set("shen_type", 1);
+        setup();
+}
+
+
+void init()
+{
+        object ob;
+
+        ::init();
+        if( interactive(ob = this_player()) && !is_fighting() )
+                {
+                remove_call_out("greeting");
+                call_out("greeting", 1, ob);
+                }
+add_action("do_post","post");
+add_action("do_discard","discard");
+add_action("do_kiss","kiss");
+}
+
+
+void greeting(object ob)
+{
+        if( !ob || environment(ob) != environment() ) return;
+                        say( "´ŞİºİºÕ£Õ£ÑÛµÀ£º" + 
+                            RANK_D->query_respect(ob)
+                                + "£¬ºÃ¾Ã²»¼ûÁË? \n");
+}
+
+
+void do_post(string arg)
+{
+if(!wizardp( this_player(1)))
+  {
+  say ("\n[1;33m´ŞİºİºĞ¦×ÅÌáĞÑ"+this_player(1)->query("name")+": ÏëºÃÔÙĞ´àŞ! Ğ´ÁË¿É¾Í²»ÄÜÉ¾È¥ÁË. [0;37m\n\n");
+  }
+}
+
+
+int do_discard(string arg)
+{
+// this line only want to remove normal discard process 
+// but i do not know how to do it normally .  -- music
+if( arg != this_player()->query("name"));
+
+ if(!wizardp( this_player(1)))
+  {
+   say (this_player(1)->query("name")+"ÏëÉ¾ÁôÑÔ\n");
+   say ("´ŞİºİºÇáÇáµÄÒ¡Ò¡Í·: É¾²»ÁËÁË , ¸úÄãËµ¹ıÒªÏëºÃÔÙĞ´µÄ¡£ \n");
+   say ("[36m´ŞİºİºÎŞÄÎµØËÊÁËËÊ¼ç¡£[37m\n");
+   return 1;
+  }
+}
+
+void do_kiss(string arg)
+{
+
+ if(wizardp( this_player(1)))
+   {
+   say ("´ŞİºİºÌğÌğµÄ¿´×Å"+ this_player(1)->query("name") +",Î¢Î¢Ò»Ğ¦.\n");
+   }
+ else 
+   {
+   say("´ŞİºİºÇáÇáµÄÒ¡Ò¡Í·: "+this_player(1)->query("name")+", ±ğÕâÑù ... \n");
+   }
+}
+

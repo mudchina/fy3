@@ -1,0 +1,19 @@
+inherit KZZNPC;
+#include <ansi.h>
+string query_save_file() { return DATA_DIR + "npc/åÐÒ£×Ó"; }
+void create()
+{
+#include <kzznpc.h>
+set("long","Õâ¸ö²¡·òÄ£ÑùµÄÖÐÄêÈË£¬ÒÂÉÀñÜñÚ£¬
+Ò§ÖøÒ»¸ùºµÑÌ¹Ü£¬Ë«Ä¿ËÆÕöËÆ±Õ£¬×ìÀïÂýÂýÅç³öÑÌÎí.\n");
+set("area_name","»ÄÎß·ØµØ");
+set("area_file","/d/robber/trees5.c");
+set("ziyuan","Í­¿ó");
+set("jizhi",80);
+set("kaifa",6);
+setup();
+carry_object("/obj/armor/cloth")->wear();
+carry_object(__DIR__"obj/hanyangan")->wield();
+}
+#include <die.h>
+
